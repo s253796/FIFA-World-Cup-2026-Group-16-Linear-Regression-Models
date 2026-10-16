@@ -1,4 +1,4 @@
-Match_ID,Date,Team,Opponent,Goals_Scored,Log_Market_Value_Difference,PreMatch_Elo_Difference,WC_Experience_Per_Player_Difference,PreMatch_Unbeaten_Rate_Last7
+Match_ID,Date,Team,Opponent,Goals_Scored,Log_Market_Value_Difference,PreMatch_Elo_Difference,Squad_Avg_WC_Matches_Per_Player_Difference,PreMatch_Unbeaten_Rate_Last7
 1,2026-06-11,Mexico,South Africa,2,1.5706279910272656,191.40314565936114,1.5,1.0
 1,2026-06-11,South Africa,Mexico,0,-1.5706279910272656,-191.40314565936114,-1.5,0.5714285714285714
 2,2026-06-11,South Korea,Czechia,2,-0.2898798755342602,75.3823593337795,1.88,0.7142857142857143

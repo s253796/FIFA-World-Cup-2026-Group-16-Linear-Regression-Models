@@ -170,7 +170,7 @@ if len(df) != 208:
 predictors = [
     "Log_Market_Value_Difference",
     "PreMatch_Elo_Difference",
-    "WC_Experience_Per_Player_Difference",
+    "Squad_Avg_WC_Matches_Per_Player_Difference",
     "PreMatch_Unbeaten_Rate_Last7",
 ]
 
