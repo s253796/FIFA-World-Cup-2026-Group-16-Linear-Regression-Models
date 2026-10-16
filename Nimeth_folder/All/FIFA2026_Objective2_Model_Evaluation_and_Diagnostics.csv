@@ -1,0 +1,153 @@
+Objective,Result_Type,Split,Variable,Metric,Value,Unit,Original_Output_File
+Objective2_1,Split metric,Random 60/40,,TrainMatches,62.0,matches,All_Split_Metrics.csv
+Objective2_1,Split metric,Random 60/40,,TestMatches,42.0,matches,All_Split_Metrics.csv
+Objective2_1,Split metric,Random 60/40,,TrainRows,62.0,rows,All_Split_Metrics.csv
+Objective2_1,Split metric,Random 60/40,,TestRows,42.0,rows,All_Split_Metrics.csv
+Objective2_1,Split metric,Random 60/40,,Train_MAE,1.052902336423854,goals,All_Split_Metrics.csv
+Objective2_1,Split metric,Random 60/40,,Train_RMSE,1.3098980842190877,goals,All_Split_Metrics.csv
+Objective2_1,Split metric,Random 60/40,,Train_R2,0.5194067314514008,score,All_Split_Metrics.csv
+Objective2_1,Split metric,Random 60/40,,Test_MAE,1.2934748008173176,goals,All_Split_Metrics.csv
+Objective2_1,Split metric,Random 60/40,,Test_RMSE,1.659429945326687,goals,All_Split_Metrics.csv
+Objective2_1,Split metric,Random 60/40,,Test_R2,0.4214458719103874,score,All_Split_Metrics.csv
+Objective2_1,Split metric,Random 60/40,,Baseline_Test_MAE,1.6927803379416282,goals,All_Split_Metrics.csv
+Objective2_1,Split metric,Random 60/40,,Baseline_Test_RMSE,2.1880748552713976,goals,All_Split_Metrics.csv
+Objective2_1,Split metric,Random 70/30,,TrainMatches,72.0,matches,All_Split_Metrics.csv
+Objective2_1,Split metric,Random 70/30,,TestMatches,32.0,matches,All_Split_Metrics.csv
+Objective2_1,Split metric,Random 70/30,,TrainRows,72.0,rows,All_Split_Metrics.csv
+Objective2_1,Split metric,Random 70/30,,TestRows,32.0,rows,All_Split_Metrics.csv
+Objective2_1,Split metric,Random 70/30,,Train_MAE,1.0438961318735918,goals,All_Split_Metrics.csv
+Objective2_1,Split metric,Random 70/30,,Train_RMSE,1.3110629263869302,goals,All_Split_Metrics.csv
+Objective2_1,Split metric,Random 70/30,,Train_R2,0.5309908411932514,score,All_Split_Metrics.csv
+Objective2_1,Split metric,Random 70/30,,Test_MAE,1.296679445683033,goals,All_Split_Metrics.csv
+Objective2_1,Split metric,Random 70/30,,Test_RMSE,1.6899520749552646,goals,All_Split_Metrics.csv
+Objective2_1,Split metric,Random 70/30,,Test_R2,0.42146774915507446,score,All_Split_Metrics.csv
+Objective2_1,Split metric,Random 70/30,,Baseline_Test_MAE,1.6848958333333335,goals,All_Split_Metrics.csv
+Objective2_1,Split metric,Random 70/30,,Baseline_Test_RMSE,2.2230250285990434,goals,All_Split_Metrics.csv
+Objective2_1,Split metric,Random 80/20,,TrainMatches,83.0,matches,All_Split_Metrics.csv
+Objective2_1,Split metric,Random 80/20,,TestMatches,21.0,matches,All_Split_Metrics.csv
+Objective2_1,Split metric,Random 80/20,,TrainRows,83.0,rows,All_Split_Metrics.csv
+Objective2_1,Split metric,Random 80/20,,TestRows,21.0,rows,All_Split_Metrics.csv
+Objective2_1,Split metric,Random 80/20,,Train_MAE,1.0536433203149915,goals,All_Split_Metrics.csv
+Objective2_1,Split metric,Random 80/20,,Train_RMSE,1.3261901629569488,goals,All_Split_Metrics.csv
+Objective2_1,Split metric,Random 80/20,,Train_R2,0.5207563555255712,score,All_Split_Metrics.csv
+Objective2_1,Split metric,Random 80/20,,Test_MAE,1.43143794935128,goals,All_Split_Metrics.csv
+Objective2_1,Split metric,Random 80/20,,Test_RMSE,1.8428676196532818,goals,All_Split_Metrics.csv
+Objective2_1,Split metric,Random 80/20,,Test_R2,0.38416651766741383,score,All_Split_Metrics.csv
+Objective2_1,Split metric,Random 80/20,,Baseline_Test_MAE,1.8393574297188753,goals,All_Split_Metrics.csv
+Objective2_1,Split metric,Random 80/20,,Baseline_Test_RMSE,2.367952677709764,goals,All_Split_Metrics.csv
+Objective2_1,Split metric,Random 85/15,,TrainMatches,88.0,matches,All_Split_Metrics.csv
+Objective2_1,Split metric,Random 85/15,,TestMatches,16.0,matches,All_Split_Metrics.csv
+Objective2_1,Split metric,Random 85/15,,TrainRows,88.0,rows,All_Split_Metrics.csv
+Objective2_1,Split metric,Random 85/15,,TestRows,16.0,rows,All_Split_Metrics.csv
+Objective2_1,Split metric,Random 85/15,,Train_MAE,1.0858194640260217,goals,All_Split_Metrics.csv
+Objective2_1,Split metric,Random 85/15,,Train_RMSE,1.3823852939199128,goals,All_Split_Metrics.csv
+Objective2_1,Split metric,Random 85/15,,Train_R2,0.5013915230137546,score,All_Split_Metrics.csv
+Objective2_1,Split metric,Random 85/15,,Test_MAE,1.3905321485757682,goals,All_Split_Metrics.csv
+Objective2_1,Split metric,Random 85/15,,Test_RMSE,1.7446554977787336,goals,All_Split_Metrics.csv
+Objective2_1,Split metric,Random 85/15,,Test_R2,0.3736184579437559,score,All_Split_Metrics.csv
+Objective2_1,Split metric,Random 85/15,,Baseline_Test_MAE,1.8977272727272727,goals,All_Split_Metrics.csv
+Objective2_1,Split metric,Random 85/15,,Baseline_Test_RMSE,2.317736142542175,goals,All_Split_Metrics.csv
+Objective2_1,Split metric,CHRONOLOGICAL 80/20 (final),,TrainMatches,83.0,matches,All_Split_Metrics.csv
+Objective2_1,Split metric,CHRONOLOGICAL 80/20 (final),,TestMatches,21.0,matches,All_Split_Metrics.csv
+Objective2_1,Split metric,CHRONOLOGICAL 80/20 (final),,TrainRows,83.0,rows,All_Split_Metrics.csv
+Objective2_1,Split metric,CHRONOLOGICAL 80/20 (final),,TestRows,21.0,rows,All_Split_Metrics.csv
+Objective2_1,Split metric,CHRONOLOGICAL 80/20 (final),,Train_MAE,1.1465104853088264,goals,All_Split_Metrics.csv
+Objective2_1,Split metric,CHRONOLOGICAL 80/20 (final),,Train_RMSE,1.4557439106130687,goals,All_Split_Metrics.csv
+Objective2_1,Split metric,CHRONOLOGICAL 80/20 (final),,Train_R2,0.5125833932286875,score,All_Split_Metrics.csv
+Objective2_1,Split metric,CHRONOLOGICAL 80/20 (final),,Test_MAE,1.0584173639916261,goals,All_Split_Metrics.csv
+Objective2_1,Split metric,CHRONOLOGICAL 80/20 (final),,Test_RMSE,1.3488119382464163,goals,All_Split_Metrics.csv
+Objective2_1,Split metric,CHRONOLOGICAL 80/20 (final),,Test_R2,0.22407301998315277,score,All_Split_Metrics.csv
+Objective2_1,Split metric,CHRONOLOGICAL 80/20 (final),,Baseline_Test_MAE,1.4262765347102697,goals,All_Split_Metrics.csv
+Objective2_1,Split metric,CHRONOLOGICAL 80/20 (final),,Baseline_Test_RMSE,1.7470215835487088,goals,All_Split_Metrics.csv
+Objective2_2,Split metric,Random 60/40,,TrainMatches,62.0,matches,All_Split_Metrics.csv
+Objective2_2,Split metric,Random 60/40,,TestMatches,42.0,matches,All_Split_Metrics.csv
+Objective2_2,Split metric,Random 60/40,,TrainRows,124.0,rows,All_Split_Metrics.csv
+Objective2_2,Split metric,Random 60/40,,TestRows,84.0,rows,All_Split_Metrics.csv
+Objective2_2,Split metric,Random 60/40,,Train_MAE,0.9246358465207193,goals,All_Split_Metrics.csv
+Objective2_2,Split metric,Random 60/40,,Train_RMSE,1.2080583577701876,goals,All_Split_Metrics.csv
+Objective2_2,Split metric,Random 60/40,,Train_R2,0.26136236948358404,score,All_Split_Metrics.csv
+Objective2_2,Split metric,Random 60/40,,Test_MAE,0.9237735085062682,goals,All_Split_Metrics.csv
+Objective2_2,Split metric,Random 60/40,,Test_RMSE,1.1593739870179274,goals,All_Split_Metrics.csv
+Objective2_2,Split metric,Random 60/40,,Test_R2,0.2799644258460178,score,All_Split_Metrics.csv
+Objective2_2,Split metric,Random 60/40,,Baseline_Test_MAE,1.1071428571428572,goals,All_Split_Metrics.csv
+Objective2_2,Split metric,Random 60/40,,Baseline_Test_RMSE,1.3671311638052945,goals,All_Split_Metrics.csv
+Objective2_2,Split metric,Random 70/30,,TrainMatches,72.0,matches,All_Split_Metrics.csv
+Objective2_2,Split metric,Random 70/30,,TestMatches,32.0,matches,All_Split_Metrics.csv
+Objective2_2,Split metric,Random 70/30,,TrainRows,144.0,rows,All_Split_Metrics.csv
+Objective2_2,Split metric,Random 70/30,,TestRows,64.0,rows,All_Split_Metrics.csv
+Objective2_2,Split metric,Random 70/30,,Train_MAE,0.8919282919177505,goals,All_Split_Metrics.csv
+Objective2_2,Split metric,Random 70/30,,Train_RMSE,1.1714256922948176,goals,All_Split_Metrics.csv
+Objective2_2,Split metric,Random 70/30,,Train_R2,0.27335400976382973,score,All_Split_Metrics.csv
+Objective2_2,Split metric,Random 70/30,,Test_MAE,0.9364700288997727,goals,All_Split_Metrics.csv
+Objective2_2,Split metric,Random 70/30,,Test_RMSE,1.1956680886103972,goals,All_Split_Metrics.csv
+Objective2_2,Split metric,Random 70/30,,Test_R2,0.29610140142029073,score,All_Split_Metrics.csv
+Objective2_2,Split metric,Random 70/30,,Baseline_Test_MAE,1.1367187500000002,goals,All_Split_Metrics.csv
+Objective2_2,Split metric,Random 70/30,,Baseline_Test_RMSE,1.425143145831713,goals,All_Split_Metrics.csv
+Objective2_2,Split metric,Random 80/20,,TrainMatches,83.0,matches,All_Split_Metrics.csv
+Objective2_2,Split metric,Random 80/20,,TestMatches,21.0,matches,All_Split_Metrics.csv
+Objective2_2,Split metric,Random 80/20,,TrainRows,166.0,rows,All_Split_Metrics.csv
+Objective2_2,Split metric,Random 80/20,,TestRows,42.0,rows,All_Split_Metrics.csv
+Objective2_2,Split metric,Random 80/20,,Train_MAE,0.8823496668904593,goals,All_Split_Metrics.csv
+Objective2_2,Split metric,Random 80/20,,Train_RMSE,1.1633698318121284,goals,All_Split_Metrics.csv
+Objective2_2,Split metric,Random 80/20,,Train_R2,0.2787503220394342,score,All_Split_Metrics.csv
+Objective2_2,Split metric,Random 80/20,,Test_MAE,0.954267040988319,goals,All_Split_Metrics.csv
+Objective2_2,Split metric,Random 80/20,,Test_RMSE,1.2016559925904102,goals,All_Split_Metrics.csv
+Objective2_2,Split metric,Random 80/20,,Test_R2,0.3270341749885929,score,All_Split_Metrics.csv
+Objective2_2,Split metric,Random 80/20,,Baseline_Test_MAE,1.2142857142857142,goals,All_Split_Metrics.csv
+Objective2_2,Split metric,Random 80/20,,Baseline_Test_RMSE,1.4679107277903192,goals,All_Split_Metrics.csv
+Objective2_2,Split metric,Random 85/15,,TrainMatches,88.0,matches,All_Split_Metrics.csv
+Objective2_2,Split metric,Random 85/15,,TestMatches,16.0,matches,All_Split_Metrics.csv
+Objective2_2,Split metric,Random 85/15,,TrainRows,176.0,rows,All_Split_Metrics.csv
+Objective2_2,Split metric,Random 85/15,,TestRows,32.0,rows,All_Split_Metrics.csv
+Objective2_2,Split metric,Random 85/15,,Train_MAE,0.886535847070684,goals,All_Split_Metrics.csv
+Objective2_2,Split metric,Random 85/15,,Train_RMSE,1.1761711705460598,goals,All_Split_Metrics.csv
+Objective2_2,Split metric,Random 85/15,,Train_R2,0.279467039813758,score,All_Split_Metrics.csv
+Objective2_2,Split metric,Random 85/15,,Test_MAE,0.9839511688848774,goals,All_Split_Metrics.csv
+Objective2_2,Split metric,Random 85/15,,Test_RMSE,1.1477536573184863,goals,All_Split_Metrics.csv
+Objective2_2,Split metric,Random 85/15,,Test_R2,0.32008337657395536,score,All_Split_Metrics.csv
+Objective2_2,Split metric,Random 85/15,,Baseline_Test_MAE,1.258522727272727,goals,All_Split_Metrics.csv
+Objective2_2,Split metric,Random 85/15,,Baseline_Test_RMSE,1.4184076160572658,goals,All_Split_Metrics.csv
+Objective2_2,Split metric,CHRONOLOGICAL 80/20 (final),,TrainMatches,83.0,matches,All_Split_Metrics.csv
+Objective2_2,Split metric,CHRONOLOGICAL 80/20 (final),,TestMatches,21.0,matches,All_Split_Metrics.csv
+Objective2_2,Split metric,CHRONOLOGICAL 80/20 (final),,TrainRows,166.0,rows,All_Split_Metrics.csv
+Objective2_2,Split metric,CHRONOLOGICAL 80/20 (final),,TestRows,42.0,rows,All_Split_Metrics.csv
+Objective2_2,Split metric,CHRONOLOGICAL 80/20 (final),,Train_MAE,0.8861055218450967,goals,All_Split_Metrics.csv
+Objective2_2,Split metric,CHRONOLOGICAL 80/20 (final),,Train_RMSE,1.1468826280609041,goals,All_Split_Metrics.csv
+Objective2_2,Split metric,CHRONOLOGICAL 80/20 (final),,Train_R2,0.3370371946010837,score,All_Split_Metrics.csv
+Objective2_2,Split metric,CHRONOLOGICAL 80/20 (final),,Test_MAE,0.9322208997130713,goals,All_Split_Metrics.csv
+Objective2_2,Split metric,CHRONOLOGICAL 80/20 (final),,Test_RMSE,1.257706909420967,goals,All_Split_Metrics.csv
+Objective2_2,Split metric,CHRONOLOGICAL 80/20 (final),,Test_R2,0.0833304054240328,score,All_Split_Metrics.csv
+Objective2_2,Split metric,CHRONOLOGICAL 80/20 (final),,Baseline_Test_MAE,1.044750430292599,goals,All_Split_Metrics.csv
+Objective2_2,Split metric,CHRONOLOGICAL 80/20 (final),,Baseline_Test_RMSE,1.3147364862531419,goals,All_Split_Metrics.csv
+Objective2_1,Training diagnostic,CHRONOLOGICAL 80/20 (final),,Training_Observations,83.0,rows,Objective2_1_Train_Diagnostic_Tests.csv
+Objective2_1,Training diagnostic,CHRONOLOGICAL 80/20 (final),,Training_Adjusted_R2,0.4598897060101673,score,Objective2_1_Train_Diagnostic_Tests.csv
+Objective2_1,Training diagnostic,CHRONOLOGICAL 80/20 (final),,Residual_Shapiro_P,0.8975760840948761,p-value,Objective2_1_Train_Diagnostic_Tests.csv
+Objective2_1,Training diagnostic,CHRONOLOGICAL 80/20 (final),,Breusch_Pagan_P,0.13504701237966077,p-value,Objective2_1_Train_Diagnostic_Tests.csv
+Objective2_1,Training diagnostic,CHRONOLOGICAL 80/20 (final),,Durbin_Watson,2.1271486070242416,statistic,Objective2_1_Train_Diagnostic_Tests.csv
+Objective2_1,Training diagnostic,CHRONOLOGICAL 80/20 (final),,Influential_Train_Rows_CooksGt4N,9.0,rows,Objective2_1_Train_Diagnostic_Tests.csv
+Objective2_1,Training diagnostic,CHRONOLOGICAL 80/20 (final),,Max_Cooks_Distance,0.10473162167614912,statistic,Objective2_1_Train_Diagnostic_Tests.csv
+Objective2_1,Training diagnostic,CHRONOLOGICAL 80/20 (final),,Matrix_Rank,9.0,count,Objective2_1_Train_Diagnostic_Tests.csv
+Objective2_1,VIF,CHRONOLOGICAL 80/20 (final),X1_Past7_WinRate_Diff,VIF,3.7959581981982113,VIF,Objective2_1_VIF.csv
+Objective2_1,VIF,CHRONOLOGICAL 80/20 (final),X2_Past7_GoalsConceded_Diff,VIF,2.2167835925477375,VIF,Objective2_1_VIF.csv
+Objective2_1,VIF,CHRONOLOGICAL 80/20 (final),X3_WC_Participations_Diff,VIF,3.2525377048019237,VIF,Objective2_1_VIF.csv
+Objective2_1,VIF,CHRONOLOGICAL 80/20 (final),X4_MostExpPlayer_Pre2026_Diff,VIF,2.2388880612403534,VIF,Objective2_1_VIF.csv
+Objective2_1,VIF,CHRONOLOGICAL 80/20 (final),X5_Prior_WC_GoalDifference_Diff,VIF,2.508518132778189,VIF,Objective2_1_VIF.csv
+Objective2_1,VIF,CHRONOLOGICAL 80/20 (final),X6_Prior_WC_WinRate_Diff,VIF,2.297965929115783,VIF,Objective2_1_VIF.csv
+Objective2_1,VIF,CHRONOLOGICAL 80/20 (final),X7_Log_MarketValue_Diff,VIF,3.006534137031087,VIF,Objective2_1_VIF.csv
+Objective2_1,VIF,CHRONOLOGICAL 80/20 (final),X8_PreMatch_Computed_Elo_Diff,VIF,3.2058766623969133,VIF,Objective2_1_VIF.csv
+Objective2_2,Training diagnostic,CHRONOLOGICAL 80/20 (final),,Training_Observations,166.0,rows,Objective2_2_Train_Diagnostic_Tests.csv
+Objective2_2,Training diagnostic,CHRONOLOGICAL 80/20 (final),,Training_Adjusted_R2,0.30325565037693514,score,Objective2_2_Train_Diagnostic_Tests.csv
+Objective2_2,Training diagnostic,CHRONOLOGICAL 80/20 (final),,Residual_Shapiro_P,0.011139996089983634,p-value,Objective2_2_Train_Diagnostic_Tests.csv
+Objective2_2,Training diagnostic,CHRONOLOGICAL 80/20 (final),,Breusch_Pagan_P,5.8181992107526934e-05,p-value,Objective2_2_Train_Diagnostic_Tests.csv
+Objective2_2,Training diagnostic,CHRONOLOGICAL 80/20 (final),,Durbin_Watson,1.8211813115752753,statistic,Objective2_2_Train_Diagnostic_Tests.csv
+Objective2_2,Training diagnostic,CHRONOLOGICAL 80/20 (final),,Influential_Train_Rows_CooksGt4N,13.0,rows,Objective2_2_Train_Diagnostic_Tests.csv
+Objective2_2,Training diagnostic,CHRONOLOGICAL 80/20 (final),,Max_Cooks_Distance,0.8687562819628113,statistic,Objective2_2_Train_Diagnostic_Tests.csv
+Objective2_2,Training diagnostic,CHRONOLOGICAL 80/20 (final),,Matrix_Rank,9.0,count,Objective2_2_Train_Diagnostic_Tests.csv
+Objective2_2,VIF,CHRONOLOGICAL 80/20 (final),X1_Log_MarketValue_Diff,VIF,2.7208654070123712,VIF,Objective2_2_VIF.csv
+Objective2_2,VIF,CHRONOLOGICAL 80/20 (final),X2_PreMatch_Computed_Elo_Diff,VIF,2.620167644964588,VIF,Objective2_2_VIF.csv
+Objective2_2,VIF,CHRONOLOGICAL 80/20 (final),X3_Squad_Avg_WC_MatchesPP_Diff,VIF,2.2562672320621564,VIF,Objective2_2_VIF.csv
+Objective2_2,VIF,CHRONOLOGICAL 80/20 (final),X4_Past7_UnbeatenRate_Team,VIF,1.5649187012435652,VIF,Objective2_2_VIF.csv
+Objective2_2,VIF,CHRONOLOGICAL 80/20 (final),X5_Prior_WC_Team_AvgGoals,VIF,1.169413991609092,VIF,Objective2_2_VIF.csv
+Objective2_2,VIF,CHRONOLOGICAL 80/20 (final),X6_Prior_WC_Opp_AvgConceded,VIF,1.1450106764767278,VIF,Objective2_2_VIF.csv
+Objective2_2,VIF,CHRONOLOGICAL 80/20 (final),X7_Avg_SquadAge_Team,VIF,1.2496862530873132,VIF,Objective2_2_VIF.csv
+Objective2_2,VIF,CHRONOLOGICAL 80/20 (final),X8_DaysSincePrevInternational_Team,VIF,1.0683710352055127,VIF,Objective2_2_VIF.csv
