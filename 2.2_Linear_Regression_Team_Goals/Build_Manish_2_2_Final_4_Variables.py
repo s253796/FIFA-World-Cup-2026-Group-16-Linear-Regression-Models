@@ -156,7 +156,7 @@ for i, r in wc.iterrows():
                 - np.log1p(market_value[opponent]),
             "PreMatch_Elo_Difference":
                 team_elo - opponent_elo,
-            "WC_Experience_Per_Player_Difference":
+            "Squad_Avg_WC_Matches_Per_Player_Difference":
                 wc_exp[team] - wc_exp[opponent],
             "PreMatch_Unbeaten_Rate_Last7":
                 unbeaten_rate,
