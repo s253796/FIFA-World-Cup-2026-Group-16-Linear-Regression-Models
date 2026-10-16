@@ -16,6 +16,19 @@ df["date"] = pd.to_datetime(df["date"], format="mixed", dayfirst=True)
 age = pd.read_csv(HERE / "Age.csv", encoding="cp1252")
 exp = pd.read_csv(HERE / "Experience.csv", encoding="cp1252")
 
+#adding Nimeth's variables
+gd = pd.read_csv(HERE / "Objective2_1_104_Matches.csv")
+gd = gd[['Team_A', 'Team_B', 'X1_PreMatch_GD_Difference','X2_PreMatch_Win_Rate_Difference']]
+gd = gd.rename(columns={"Team_A": "home_team", "Team_B": "away_team"})
+
+#utilising variables from Manish 2.2 Log_market and PreMatch_Elo need to trim data as it's outputted in 208 rows
+mv= pd.read_csv(HERE /"Manish_2_2_Final_4_Variables_208_Rows.csv")
+
+#reduce dataset to only relevant
+mv = mv[['Team', 'Opponent', 'Log_Market_Value_Difference', 'PreMatch_Elo_Difference']]
+
+mv = mv.rename(columns={"Team":"home_team", "Opponent": "away_team"})
+
 name_map = {
     "DR Congo": "Democratic Republic of the Congo",
     "Bosnia and Herzegovina": "Bosnia-Herzegovina",
@@ -31,7 +44,10 @@ df["home_team"] = clean_names(df["home_team"])
 df["away_team"] = clean_names(df["away_team"])
 age["Club"] = clean_names(age["Club"])
 exp["Club"] = clean_names(exp["Club"])
-
+gd["home_team"] = clean_names(gd["home_team"])
+gd["away_team"] = clean_names(gd["away_team"])
+mv["home_team"] = clean_names(mv["home_team"])
+mv["away_team"] = clean_names(mv["away_team"])
 
 #Interpreteting match history and sorting data
 long = pd.concat([
@@ -77,11 +93,16 @@ def merge_stat(df, table, col, new_name):
             .rename(columns={col: f"{new_name}_2"}).drop(columns="Club")
     return df
 
+df= df.merge(mv, on= ["home_team", "away_team"], how="left", validate= "one_to_one")
+df= df.merge(gd, on= ["home_team", "away_team"], how="left", validate= "one_to_one")
+
 exp["WCPlayerEXP"] = exp["Player WC Count"] - exp["2026"]
 
 #Template for choosing columns and names [Remove #and change Y1, X1 etc to column selected and new name]
 df = merge_stat(df, age, "WC particip.", "WCPart")
 df = merge_stat(df, exp, "WCPlayerEXP", "WCMatchesPP")
+
+
 
 # Sanity check should print 0 for each merged column
 for col in ["WCPart_1", "WCPart_2", "WCMatchesPP_1", "WCMatchesPP_2"]:
@@ -93,11 +114,15 @@ variables = [
     ("Win Rate (last 7)", "WinRate_1", "WinRate_2"),
     ("Goals Conceded (last 7)", "Conceded_1", "Conceded_2"),
     ("WC Participations", "WCPart_1", "WCPart_2"),
-    ("Most Experienced Player's Matches", "WCMatchesPP_1", "WCMatchesPP_2")
+    ("Most Experienced Player's Matches", "WCMatchesPP_1", "WCMatchesPP_2")    
 ]
 
 #Data quality, varaible relevance and overlay checks
 diffs = pd.DataFrame({label: df[c1] - df[c2] for label, c1, c2, in variables})
+diffs["Log Market Value"] = df["Log_Market_Value_Difference"]
+diffs["Pre-Match Elo"] =df["PreMatch_Elo_Difference"]
+diffs["FIFA 2026 Pre-Match Goal Difference"] = df["X1_PreMatch_GD_Difference"]
+diffs["FIFA 2026 Pre-Match Win Rate"] =df["X2_PreMatch_Win_Rate_Difference"]
 print("Missing per column:\n", diffs.isna().sum())
 print(diffs.describe().round(2))
 print("Skewness:\n", diffs.skew().round(2))
@@ -137,10 +162,9 @@ plt.savefig(output_dir / "corr_heatmap.png", dpi=200, bbox_inches='tight')
 plt.show()
 
 #Print scatter
-for label, col1, col2 in variables:
-    diff = df[col1] - df[col2]
-
-    plt.scatter(diff, df["Goal_Diff"])
+for label in diffs.columns:
+    plt.figure()
+    plt.scatter(diffs[label],df["Goal_Diff"])
     plt.xlabel(f"{label} Difference (Home - Away)")
     plt.ylabel("Goal Difference (Home - Away)")
     plt.title(f"{label} Diff vs Goal Diff")
