@@ -1,50 +1,42 @@
-MANISH — REGRESSION 2.2 FINAL FOUR VARIABLES
+MANISH — CORRECTED REGRESSION 2.2 FOUR VARIABLES
 
-Response variable
------------------
-Goals_Scored
+Why this correction was made
+----------------------------
+Two earlier variables could not be safely certified as pre-match:
+1. Squad average World Cup matches per player appears to include 2026 appearances.
+2. The market-value snapshot date is not documented in the repository.
 
-Dataset structure
------------------
-104 FIFA World Cup 2026 matches
-208 team-match rows
+To remove those assignment-rule risks, both were replaced with predictors that
+can be constructed entirely from information available before the match.
 
-Final four variables
---------------------
-1. Log_Market_Value_Difference
-   log(1 + Team Market Value) - log(1 + Opponent Market Value)
-
-2. PreMatch_Elo_Difference
-   Team pre-match Elo - Opponent pre-match Elo
-   Elo starts at 1500 with K = 20.
-   The rating is captured BEFORE the current match is used to update it.
-
-3. WC_Experience_Per_Player_Difference
-   Team World Cup matches per player - Opponent World Cup matches per player
-
+Corrected four variables
+------------------------
+1. PreMatch_Elo_Difference
+2. Pre2026_WC_Participation_Difference
+3. Opponent_Loss_Rate_Last7
 4. PreMatch_Unbeaten_Rate_Last7
-   Proportion of the team's previous 7 internationals that were wins or draws.
 
-Current evidence
-----------------
-Log Market Value Difference:
-r = 0.5139
+Important group note
+--------------------
+Pre2026_WC_Participation_Difference is also used in Regression 2.1, so it counts
+as one shared explanatory variable. The project brief allows up to four variables
+to be shared between 2.1 and 2.2.
 
-Pre-match Elo Difference:
-r = 0.4766
+Results
+-------
+                           Variable  Correlation_with_Goals_Scored  Missing_Values  Z_Score_Abs_Over_3
+            PreMatch_Elo_Difference                         0.4766               0                   0
+Pre2026_WC_Participation_Difference                         0.4285               0                   0
+           Opponent_Loss_Rate_Last7                         0.2779               0                   0
+       PreMatch_Unbeaten_Rate_Last7                         0.2467               0                   0
 
-WC Experience per Player Difference:
-r = 0.4108
+VIF
+---
+                           Variable   VIF
+            PreMatch_Elo_Difference 4.193
+Pre2026_WC_Participation_Difference 2.782
+           Opponent_Loss_Rate_Last7 1.502
+       PreMatch_Unbeaten_Rate_Last7 1.502
 
-Pre-match Unbeaten Rate Last 7:
-r = 0.2467
-
-All four variables are available before kickoff and the script does not use
-the current match result to construct them.
-
-Important
----------
-These are Manish's four variables only.
-The final Regression 2.2 model must contain EXACTLY 8 explanatory variables.
-Nimeth's two variables and the two agreed shared variables still need to be
-merged before the final group model is trained.
+All four corrected predictors have complete 208-row coverage and are based on
+pre-match information.

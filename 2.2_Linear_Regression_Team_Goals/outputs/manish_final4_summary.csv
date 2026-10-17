@@ -1,0 +1,5 @@
+Variable,Correlation_with_Goals_Scored,Single_Variable_R2,Missing_Values,Z_Score_Abs_Over_3
+PreMatch_Elo_Difference,0.47658972486425283,0.2271377658461842,0,0
+Pre2026_WC_Participation_Difference,0.4284712891875538,0.18358764565804433,0,0
+Opponent_Loss_Rate_Last7,0.27793371002439893,0.07724714716792667,0,0
+PreMatch_Unbeaten_Rate_Last7,0.2466820046595077,0.060852011422833384,0,0
