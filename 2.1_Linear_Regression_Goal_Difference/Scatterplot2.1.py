@@ -25,7 +25,7 @@ gd = gd.rename(columns={"Team_A": "home_team", "Team_B": "away_team"})
 mv= pd.read_csv(HERE /"Manish_2_2_Final_4_Variables_208_Rows.csv")
 
 #reduce dataset to only relevant
-mv = mv[['Team', 'Opponent', 'Log_Market_Value_Difference', 'PreMatch_Elo_Difference']]
+mv = mv[['Team', 'Opponent', 'PreMatch_Unbeaten_Rate_Last7', 'PreMatch_Elo_Difference']]
 
 mv = mv.rename(columns={"Team":"home_team", "Opponent": "away_team"})
 
@@ -119,7 +119,7 @@ variables = [
 
 #Data quality, varaible relevance and overlay checks
 diffs = pd.DataFrame({label: df[c1] - df[c2] for label, c1, c2, in variables})
-diffs["Log Market Value"] = df["Log_Market_Value_Difference"]
+diffs["Pre-Match Unbeaten Rate"] = df["PreMatch_Unbeaten_Rate_Last7"]
 diffs["Pre-Match Elo"] =df["PreMatch_Elo_Difference"]
 diffs["FIFA 2026 Pre-Match Goal Difference"] = df["X1_PreMatch_GD_Difference"]
 diffs["FIFA 2026 Pre-Match Win Rate"] =df["X2_PreMatch_Win_Rate_Difference"]
