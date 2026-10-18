@@ -114,7 +114,7 @@ variables = [
     ("Win Rate (last 7)", "WinRate_1", "WinRate_2"),
     ("Goals Conceded (last 7)", "Conceded_1", "Conceded_2"),
     ("WC Participations", "WCPart_1", "WCPart_2"),
-    ("Most Experienced Player's Matches", "WCMatchesPP_1", "WCMatchesPP_2")    
+    ("Max Player WC Matches", "WCMatchesPP_1", "WCMatchesPP_2")    
 ]
 
 #Data quality, varaible relevance and overlay checks
