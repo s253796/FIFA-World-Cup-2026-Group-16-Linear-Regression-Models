@@ -1,0 +1,5 @@
+Variable,Rows,Missing,Correlation
+Team Pre-match Average Goals Scored,160,48,0.11128140732451954
+Opponent Pre-match Average Goals Conceded,160,48,0.21510693923533777
+Average Squad Age,208,0,-0.17070104285093773
+Days Since Previous International Match,208,0,-0.012956421075918425
